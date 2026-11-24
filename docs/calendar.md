@@ -1,18 +1,20 @@
 # Kiroween 2026 — calendario en hora de Seúl
 
 Todas las horas en **KST (UTC+9)**. Seúl no tiene horario de verano; California
-sí, y lo terminó el **1 de noviembre de 2026**. Por eso la diferencia con la
-hora del Pacífico es **+16h antes del 1 de noviembre** y **+17h después**.
+sí, y lo terminó el 1 de noviembre de 2026. La diferencia con la hora del
+Pacífico es **+17h** para todo lo que queda.
+
+> **CORRECCIÓN 24/11/2026.** Una versión anterior de este documento daba por
+> hecho que estábamos a 3 de noviembre. Era falso. El plan semanal original
+> (semanas 0 a 5 desde el 31 de octubre) ya no aplica y queda sustituido por el
+> plan de abajo.
 
 ---
 
-## Fechas oficiales
+## Fechas oficiales que quedan
 
-| Hito | Hora Pacífico | **Hora Seúl (KST)** | Día en Seúl |
+| Hito | Hora Pacífico | **Hora Seúl (KST)** | Día |
 |---|---|---|---|
-| Registro abierto | 13 oct, 08:30 PDT | 14 oct, 00:30 | miércoles |
-| **Arranca el Submission Period** — el código válido empieza aquí | 30 oct, 09:00 PDT | **31 oct, 01:00** | sábado (Halloween) |
-| Devpost Build Session | 11 nov, 10:00 PST | 12 nov, 03:00 | jueves, de madrugada |
 | **Límite para pedir los 4.000 créditos** | 1 dic, 12:00 PST | **2 dic, 05:00** | miércoles |
 | Límite para canjear los códigos de crédito | 4 dic | antes del 5 dic, 07:00 | sábado |
 | **DEADLINE DE ENTREGA** | 4 dic, 14:00 PST | **5 dic, 07:00** | **sábado por la mañana** |
@@ -21,62 +23,62 @@ hora del Pacífico es **+16h antes del 1 de noviembre** y **+17h después**.
 
 **No hay extensiones. Las entregas tardías no se aceptan.**
 
-### Lo que esto significa en la práctica
-
-El deadline cae un **sábado a las 7 de la mañana**, así que nuestro último día
-real de trabajo es el **viernes 4 de diciembre**.
-
 - **Deadline interno duro:** viernes 4 de diciembre por la noche.
-- **Entrega real objetivo:** miércoles 2 o jueves 3 de diciembre.
-
-El formulario de Devpost se guarda como borrador y se puede editar tantas veces
-como queramos hasta que cierre, así que entregar temprano no cuesta nada y nos
-cubre de un fallo de última hora.
-
-El límite de créditos es más temprano de lo que parece: **miércoles 2 de
-diciembre a las 05:00 KST**, y tardan hasta 48 horas hábiles en aprobarse.
-Pedirlos ya.
-
----
-
-## Plan semanal (fechas de Seúl)
-
-| Semana | Fechas | Objetivo | Salida verificable |
-|---|---|---|---|
-| **0** | sáb 31 oct – dom 1 nov | Registro en Devpost, equipo creado, repo público con licencia, `.kiro/` tracked, créditos pedidos, borrador de entrega abierto | Repo público conforme a las reglas |
-| **1** | lun 2 – dom 8 nov | Propuesta cerrada, categoría elegida, spec escrita en `.kiro/specs/`, steering docs y primer hook | "Hello world" desplegado en una URL pública |
-| **2** | lun 9 – dom 15 nov | Vertical slice: un recorrido completo de punta a punta, aunque sea feo. Build Session el jueves 12 a las 03:00 | Algo grabable en vídeo que ya demuestra la idea |
-| **3** | lun 16 – dom 22 nov | Resto de features y pase de diseño serio. Publicar el blog post y el post social | Producto completo y coherente, no una prueba de concepto |
-| **4** | lun 23 – dom 29 nov | **Congelación de features el viernes 27.** Write-up de Kiro y guion del vídeo | Write-up terminado, README probado desde cero |
-| **5** | lun 30 nov – vie 4 dic | Grabar y editar el vídeo (1-2 dic), subir a YouTube como público, rellenar datos de estudiante y enlaces, **entregar el 2-3 dic** | Entrega enviada con dos días de margen |
-
----
-
-## Hitos de control
-
-| Fecha (Seúl) | Control | Si no se cumple |
-|---|---|---|
-| **dom 8 nov** | La propuesta está cerrada y hay una URL pública con algo desplegado, aunque sea un "hello world" | Elegir la categoría más barata (Costume Contest) y recortar la idea a una sola feature |
-| **dom 22 nov** | **Existe una demo grabable de punta a punta** | **Recortar alcance inmediatamente.** No se recorta nunca el vídeo ni el write-up: juntos son el 40% de la nota |
-| **vie 27 nov** | Feature freeze. A partir de aquí solo bugs y pulido | Cortar por lo sano: lo que no esté, no entra |
-| **jue 3 dic** | Entrega enviada | Queda el viernes 4 como colchón, y nada más |
+- **Entrega real objetivo:** jueves 3 de diciembre.
 
 ---
 
 ## Estado actual
 
-> **Hoy: martes 3 de noviembre de 2026.** Quedan **31 días** hasta el deadline
-> oficial (sáb 5 dic, 07:00 KST), es decir **cuatro semanas y media de trabajo
-> real** hasta nuestro deadline interno del viernes 4 por la noche.
+> **Hoy: martes 24 de noviembre de 2026, 14:21 KST.**
 >
-> Estamos en la **semana 1**. La semana 0 ya pasó, así que hay que cerrar sus
-> tareas en paralelo esta misma semana:
+> **Quedan 10 días** hasta el deadline interno del viernes 4 de diciembre.
 >
-> - [ ] Registrarse los dos en Devpost y crear el equipo
-> - [ ] Pedir los 4.000 créditos cada uno (Credit Request Form, con el Kiro
->       user ID correcto)
-> - [ ] Crear el repo en GitHub y conectar este repo local
-> - [ ] Abrir el borrador de entrega en Devpost y guardarlo
-> - [ ] Rellenar `docs/project-proposal.md` entre los dos
+> Descontando los dos últimos días, que son para vídeo, write-up y entrega,
+> quedan **unos 8 días de desarrollo** para dos personas: alrededor de 16
+> jornadas-persona.
+>
+> **Nada está implementado todavía.** Lo que existe es el repositorio, la
+> documentación y la spec completa de KUR (requisitos, diseño y plan de tareas).
 
-Actualizad este bloque al cerrar cada semana.
+### Urgente hoy
+
+- [ ] **Pedir los 4.000 créditos los dos.** El límite es el miércoles 2 de
+      diciembre a las 05:00 KST, pero la revisión tarda **hasta 48 horas
+      hábiles** y además hay **verificación de identidad** (selfie y documento).
+      Si se pide el 1 de diciembre, no llega. Hay que hacerlo hoy.
+- [ ] Registrarse los dos en el hackathon y crear el equipo en Devpost
+- [ ] Abrir el borrador de la entrega en Devpost
+- [ ] Rellenar los datos de estudiante de la sección 0 de
+      `docs/project-proposal.md` (son $1.500 y 5 minutos)
+
+---
+
+## Plan de los 10 días que quedan
+
+| Día | Objetivo | Salida verificable |
+|---|---|---|
+| **mar 24 nov** (hoy) | Administrativo. Cadena de herramientas, contrato de eventos `events.ts` congelado, esqueleto desplegado | URL pública con un "hello world" |
+| **mié 25 – vie 27 nov** | Dos carriles en paralelo: M1 el motor de reglas y los dados, M2 el tablero en Canvas y el motor de audio | Motor que juega solo una partida en test; tablero que dibuja y suena contra eventos falsos |
+| **sáb 28 – dom 29 nov** | Unir los dos carriles | **Partida jugable de punta a punta en el navegador** |
+| **lun 30 nov** | Visualización de probabilidad, panel de procedencia, pase de dirección de arte | Producto que se ve terminado |
+| **mar 1 dic** | Property tests (4 o 5, no 15) y desbloqueo de audio. **Congelación de features al final del día** | Suite verde, audio que arranca en el navegador de un juez |
+| **mié 2 dic** | Grabar y editar el vídeo de 3 minutos. Escribir el write-up de Kiro | Vídeo subido a YouTube como público |
+| **jue 3 dic** | **Entregar en Devpost** | Entrega enviada |
+| **vie 4 dic** | Colchón. Solo arreglos | — |
+
+---
+
+## Hitos de control
+
+| Fecha | Control | Si no se cumple |
+|---|---|---|
+| **hoy, mar 24** | Créditos pedidos y contrato de eventos cerrado | Sin créditos no hay herramienta; sin contrato los dos se bloquean mutuamente |
+| **vie 27 nov** | Los dos carriles funcionan por separado | Recortar el audio a unos pocos motivos fijos en lugar de generativo |
+| **dom 29 nov** | **Partida jugable de punta a punta** | **Recorte de emergencia:** quitar el oponente inteligente y dejarlo aleatorio, y quitar la reactividad del audio |
+| **mar 1 dic** | Feature freeze | Lo que no esté, no entra. El vídeo no se recorta |
+| **jue 3 dic** | Entrega enviada | Queda el viernes 4 y nada más |
+
+**La regla que manda sobre todas las demás:** el vídeo y el write-up valen el
+40% de la nota y se hacen el 2 de diciembre pase lo que pase. Si el 29 de
+noviembre no hay partida jugable, se recorta producto, nunca presentación.
